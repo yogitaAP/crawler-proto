@@ -28,7 +28,7 @@ def union(p,q):
         if e not in p:
             p.append(e)
 
-
+""" Method to get all the anchor links in a given page"""
 def get_all_links(page):
     links = []
     while True:
