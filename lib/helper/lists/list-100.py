@@ -10,4 +10,3 @@ countries = [['China','Beijing',1350],
 # by accessing the list
 
 print countries[1][1]
-
