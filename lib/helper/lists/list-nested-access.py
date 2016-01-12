@@ -14,3 +14,4 @@ countries = [['China','Beijing',1350],
 multiple = countries[0][2] / countries[2][2]
 
 print multiple
+
