@@ -69,7 +69,7 @@ def get_all_links(page):
     return links
 
 
-# modified the procedure to accept a depth parameter
+# modified the procedure to accept a depth paramete
 def crawl_web(seed, max_depth):
     tocrawl = [seed]
     crawled = []
