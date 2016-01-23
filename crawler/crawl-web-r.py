@@ -68,7 +68,9 @@ def get_all_links(page):
             break
     return links
 
-def crawl_web(seed, max_pages, max_depth):
+
+# modified the procedure to accept a depth parameter
+def crawl_web(seed, max_depth):
     tocrawl = [seed]
     crawled = []
     next_depth = []
