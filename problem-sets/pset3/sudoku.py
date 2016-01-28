@@ -52,6 +52,10 @@ incorrect5 = [ [1, 1.5],
                [1.5, 1]]
                
 def check_sudoku():
+	square_length = len(square)
+	squareSum = 0 #for validating the sum of numbers in a row/column
+	for index in range(square_length):
+		squareSum = squareSum + index + 1
     
 
 
