@@ -64,7 +64,9 @@ def check_sudoku():
         if columnSum != squareSum:
             return false
         else:
-           print 'correct' 
+           print 'correct'
+
+        #form the column wise array to check    
 
     
 
